@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(173, 173, 204), rgb(115, 115, 243), rgb(182, 83, 141));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inputbox {
+    position: relative;
+    width: 500px;
+    align-items: center;
+}
+
+.inputbox h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.inputbox input {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: solid 2px;
+    margin: 15px 0 20px;
+    background: transparent;
+    /* outline: none; */
+    padding: 0 30px;
+    font-size: 25px;
+    /* font-weight: bold; */
+    letter-spacing: 4px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #333;
+    /* box-shadow: -4px -4px 10px rgba(255, 255, 255, 1), inset 4px 4px 10px(0, 0, 0, 0.5); */
+}
+
+
+/* .inputbox input :: placeholder {
+    letter-spacing: 0px;
+} */
+
+.inputbox #btn {
+    position: relative;
+    cursor: pointer;
+    color: white;
+    background: #333;
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.inputbox #btn:active {
+    background: green;
+}
